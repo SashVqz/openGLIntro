@@ -1,0 +1,82 @@
+# MVP (mat4): The Model-View-Projection matrix, used to transform vertex positions.
+uniformMVP=MVP
+# M (mat4): The model matrix, used to transform vertex positions.
+uniformM=M
+# vPos (vec4): The vPos
+attributeVertPos=vPos
+# vColor (vec4): The vColor
+attributeVertColor=vColor
+# vNormal (vec4): The vertex normal
+attributeVertNormal=vNormal
+# vUv (vec4): The vertex uv Texture coordinates
+attributeVertUv=vUv
+# eyePos (vec4): The eye position
+eye_position=eyePos
+# light.Ia (float): The light ambient intensity
+light_ambient_intensity0=light0.Ia
+light_ambient_intensity1=light1.Ia
+light_ambient_intensity2=light2.Ia
+light_ambient_intensity3=light3.Ia
+light_ambient_intensity4=light4.Ia
+light_ambient_intensity5=light5.Ia
+# light.Id (float): The light diffuse intensity
+light_diffuse_intensity0=light0.Id
+light_diffuse_intensity1=light1.Id
+light_diffuse_intensity2=light2.Id
+light_diffuse_intensity3=light3.Id
+light_diffuse_intensity4=light4.Id
+light_diffuse_intensity5=light5.Id
+# light.Is (float): The light specular intensity
+light_specular_intensity0=light0.Is
+light_specular_intensity1=light1.Is
+light_specular_intensity2=light2.Is
+light_specular_intensity3=light3.Is
+light_specular_intensity4=light4.Is
+light_specular_intensity5=light5.Is
+# light.color (vec3): The light color
+light_color0=light0.color
+light_color1=light1.color
+light_color2=light2.color
+light_color3=light3.color
+light_color4=light4.color
+light_color5=light5.color
+# light.direction (vec3): The light direction
+light_direction0=light0.direction
+light_direction1=light1.direction
+light_direction2=light2.direction
+light_direction3=light3.direction
+light_direction4=light4.direction
+light_direction5=light5.direction
+# light.enable (int): The light enable
+light_enable0=light0.enable
+light_enable1=light1.enable
+light_enable2=light2.enable
+light_enable3=light3.enable
+light_enable4=light4.enable
+light_enable5=light5.enable
+# light.pos (vec3): The light position
+light_position0=light0.pos
+light_position1=light1.pos
+light_position2=light2.pos
+light_position3=light3.pos
+light_position4=light4.pos
+light_position5=light5.pos
+# light.type (int): The light type
+light_type0=light0.type
+light_type1=light1.type
+light_type2=light2.type
+light_type3=light3.type
+light_type4=light4.type
+light_type5=light5.type
+# material.Ka (float): The material ambient reflectivity coefficient
+material_ambient_reflectivity=material.Ka
+# material.Kd (float): The material diffuse reflectivity coefficient
+material_diffuse_reflectivity=material.Kd
+# material.Ks (float): The material specular reflectivity coefficient
+material_specular_reflectivity=material.Ks
+# material.shinny (float): The material shininess exponent
+material_shininess=material.shinny
+# material.textureEnable (int): The material texture enable
+material_texture_enabled=material.textureEnable
+# textureColor (vec4): The texture color
+texture_color=textureColor

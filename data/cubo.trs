@@ -1,0 +1,51 @@
+# Formato tiangle storage (R) 
+# extension de fichero .trs
+# primera seccion: vertices
+# un vertice es una linea empezando con la palabra "vert" y seguida con 
+# tres numeros en coma flotante, separados por espacios
+# si tiene color empezar la linea por "color" seguida de 4 floats, formato RGBA 32Bit separados por espacios
+# Las caras empiezan la linea por "face" seguida de 3 numeros enteros
+
+vert -0.5 -0.5 0.5
+color 1 0 0 1
+		  
+vert 0.5 -0.5 0.5
+color 1 0 0 1
+
+vert -0.5 0.5 0.5
+color 1 0 0 1
+
+vert 0.5 0.5 0.5
+color 1 0 0 1
+
+vert -0.5 -0.5 -0.5
+color 0 0 1 1
+		  
+vert 0.5 -0.5 -0.5
+color 0 0 1 1
+
+vert -0.5 0.5 -0.5
+color 0 0 1 1
+
+vert 0.5 0.5 -0.5
+color 0 0 1 1
+
+face 0 1 3
+face 2 0 3
+
+face 4 7 5
+face 6 7 4
+
+face 4 0 2
+face 6 4 2
+
+face 1 5 7
+face 3 1 7
+
+face 2 3 7
+face 6 2 7
+
+face 4 5 1
+face 0 4 1
+svert data/shader.vert
+sfrag data/shader.frag

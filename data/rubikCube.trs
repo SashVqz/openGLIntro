@@ -1,0 +1,241 @@
+# v0
+vert 1 1 1
+color 1 0 0 1
+normal 0 0 1 0
+uv 0.625000 0.500000
+
+# v1
+vert 1 -1 1
+color 1 0 0 1
+normal 0 0 1 0
+uv 0.375000 0.500000
+
+# v2
+vert 1 1 -1
+color 1 1 0 1
+normal 1 0 0 0
+uv 0.625000 0.750000
+
+# v3
+vert 1 -1 -1
+color 1 1 0 1
+normal 1 0 0 0
+uv 0.375000 0.750000
+
+# v4
+vert -1 1 1
+color 1 0 0 1
+normal 0 0 1 0
+uv 0.625000 0.250000
+
+# v5
+vert -1 -1 1
+color 1 0 0 1
+normal 0 0 1 0
+uv 0.375000 0.250000
+
+# v6
+vert -1 1 -1
+color 0.872 0.227 0 1
+normal -1 0 0 0
+uv 0.625000 0
+
+# v7
+vert -1 -1 -1
+color 0 0 1 1
+normal 0 -1 0 0
+uv 0.125000 0.750000
+
+# v8
+vert -1 -1 1
+color 0.872 0.227 0 1
+normal -1 0 0 0
+uv 0.375000 0.250000
+
+# v9
+vert -1 -1 1
+color 0 0 1 1
+normal 0 -1 0 0
+uv 0.125000 0.500000
+
+# v10
+vert -1 -1 1
+color 0.872 0.227 0 1
+normal -1 0 0 0
+uv 0.375000 0.250000
+
+# v11
+vert -1 -1 -1
+color 0.872 0.227 0 1
+normal -1 0 0 0
+uv 0.375000 0
+
+# v12
+vert -1 -1 -1
+color 1 1 1 1
+normal 0 0 -1 0
+uv 0.375000 1
+
+# v13
+vert -1 -1 -1
+color 1 1 1 1
+normal 0 0 -1 0
+uv 0.375000 1
+
+# v14
+vert -1 -1 -1
+color 0 0 1 1
+normal 0 -1 0 0
+uv 0.125000 0.750000
+
+# v15
+vert 1 -1 1
+color 0 0 1 1
+normal 0 -1 0 0
+uv 0.375000 0.500000
+
+# v16
+vert 1 -1 1
+color 1 1 0 1
+normal 1 0 0 0
+uv 0.375000 0.500000
+
+# v17
+vert 1 -1 1
+color 0 0 1 1
+normal 0 -1 0 0
+uv 0.375000 0.500000
+
+# v18
+vert 1 -1 1
+color 1 0 0 1
+normal 0 0 1 0
+uv 0.375000 0.500000
+
+# v19
+vert 1 1 1
+color 1 1 0 1
+normal 1 0 0 0
+uv 0.625000 0.500000
+
+# v20
+vert 1 1 1
+color 0 1 0 1
+normal 0 1 0 0
+uv 0.625000 0.500000
+
+# v21
+vert 1 1 1
+color 1 1 0 1
+normal 1 0 0 0
+uv 0.625000 0.500000
+
+# v22
+vert -1 1 -1
+color 1 1 1 1
+normal 0 0 -1 0
+uv 0.625000 1
+
+# v23
+vert -1 1 -1
+color 0 1 0 1
+normal 0 1 0 0
+uv 0.875000 0.750000
+
+# v24
+vert -1 1 -1
+color 0.872 0.227 0 1
+normal -1 0 0 0
+uv 0.625000 0
+
+# v25
+vert 1 1 -1
+color 1 1 1 1
+normal 0 0 -1 0
+uv 0.625000 0.750000
+
+# v26
+vert 1 1 -1
+color 0 1 0 1
+normal 0 1 0 0
+uv 0.625000 0.750000
+
+# v27
+vert 1 1 -1
+color 0 1 0 1
+normal 0 1 0 0
+uv 0.625000 0.750000
+
+# v28
+vert 1 1 -1
+color 1 1 1 1
+normal 0 0 -1 0
+uv 0.625000 0.750000
+
+# v29
+vert 1 -1 -1
+color 1 1 1 1
+normal 0 0 -1 0
+uv 0.375000 0.750000
+
+# v30
+vert 1 -1 -1
+color 0 0 1 1
+normal 0 -1 0 0
+uv 0.375000 0.750000
+
+# v31
+vert 1 -1 -1
+color 1 1 0 1
+normal 1 0 0 0
+uv 0.375000 0.750000
+
+# v32
+vert -1 1 1
+color 0.872 0.227 0 1
+normal -1 0 0 0
+uv 0.625000 0.250000
+
+# v33
+vert -1 1 1
+color 0 1 0 1
+normal 0 1 0 0
+uv 0.875000 0.500000
+
+# v34
+vert -1 1 1
+color 0 1 0 1
+normal 0 1 0 0
+uv 0.875000 0.500000
+
+# v35
+vert -1 1 1
+color 1 0 0 1
+normal 0 0 1 0
+uv 0.625000 0.250000
+
+#num faces: 12
+#num vertices: 36
+
+face 34 27 20 
+face 25 13 29
+ 
+face 6 8 11 
+face 15 7 9 
+
+face 19 3 16 
+face 4 1 5 
+
+face 33 23 26 
+face 28 22 12 
+
+face 24 32 10 
+face 17 30 14 
+
+face 21 2 31 
+face 35 0 18 
+
+svert data/shader.vert
+sfrag data/shader.frag
+
+texture data/top.png
